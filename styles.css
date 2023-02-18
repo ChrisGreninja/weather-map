@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: rgba(40, 40, 43, 0.649);
+  border: 1px solid red;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 65%;
+  top: 40%;
+  text-align: center;
+  color: rgb(27, 27, 27);
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  padding: 10px;
+  z-index: 500 !important;
+}
+
+#loctionName {
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#temp {
+  font-size: 25px;
+}
+#description {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#windSpeed {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: dashed underline;
+  text-decoration-color: rgb(150, 152, 152);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container-fluid {
+  margin: 30px;
+}
+
+#map {
+  height: 89vh;
+  margin: 15px;
+}
+
+#minTemp,
+#maxTemp,
+#temp {
+  color: whitesmoke;
+}
+
+#latt,
+#long {
+  color: rgba(172, 175, 175, 0.921);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#box {
+  margin-top: 10px;
+  background-color: rgba(240, 248, 255, 0.155);
+  width: 200px;
+  margin-left: 137px;
+}
+
+.heading {
+  color: rgb(199, 255, 255);
+  text-align: center;
+  font-family: serif;
+}
