@@ -1,5 +1,5 @@
 # Weather Map 
-Created a web application which uses API to show weather data 
+Created a web application which uses API to show weather data   
 link: https://chrisgreninja.github.io/weather-map/
 
 ### Used API:
