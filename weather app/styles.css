@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(83, 83, 85, 0.36);
+  border: 1px solid red;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 65%;
+  top: 40%;
+  text-align: center;
+  color: rgb(27, 27, 27);
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  padding: 10px;
+}
+
+#loctionName {
+  font-size: 50px;
+}
+
+#temp {
+  font-size: 25px;
+}
+#description {
+  font-size: 40px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+span {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(109, 109, 109);
+}
+
+#windSpeed {
+  margin-top: 20px;
+}
+
+.container-fluid {
+}
